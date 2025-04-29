@@ -1,3 +1,4 @@
+
   import React, {useState, useEffect} from 'react'
   import client, {databases, DATABASE_ID, COLLECTION_ID_MESSAGES} from '../appWriteConfig'
   import { ID, Query, Role, Permission} from 'appwrite'
@@ -112,7 +113,7 @@ import { useAuth } from '../utils/AuthContext'
                 <div className='message--header'>
                   <p>
                     {message?.username? (
-                        <span>{message.username}</span>
+                        <span>{message?.username}</span>
                     ):(
                       <span>Anonymous User</span>
                     )}
@@ -126,7 +127,7 @@ import { useAuth } from '../utils/AuthContext'
                   }
                 </div>
 
-                <div className='message--body'>
+                <div className={"message--body" + (message.user_id === user.$id ? ' message--body--owner' : '')}>
                   <span>{message.body}</span>
                 </div>
               </div>

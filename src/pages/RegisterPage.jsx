@@ -1,3 +1,4 @@
+
 import React, {useState} from 'react'
 import { useAuth } from '../utils/AuthContext'
 import { Link } from 'react-router-dom'
@@ -59,7 +60,5 @@ const RegisterPage = () => {
     </div>
 </div>
 )
-
 }
-
 export default RegisterPage

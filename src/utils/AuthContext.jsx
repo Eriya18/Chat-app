@@ -1,4 +1,5 @@
-import { Children, createContext, useContext, useEffect, useState } from "react";
+
+import { createContext, useContext, useEffect, useState } from "react";
 import { account } from "../appWriteConfig";
 import { useNavigate } from "react-router-dom";
 import { ID } from "appwrite";
@@ -52,7 +53,7 @@ export const AuthProvider= ({children}) =>{
         const handleUserRegister = async(e, credentials)=>{
                   e.preventDefault()
 
-                  if(credentials.password1 != credentials.password2){
+                  if(credentials.password1 !== credentials.password2){
                         alert('Password do not match')
                         return
                   }
@@ -88,4 +89,4 @@ export const useAuth= ()=>{
     return useContext(AuthContext);
 }
 
-export default AuthContext
+export default AuthContext;
