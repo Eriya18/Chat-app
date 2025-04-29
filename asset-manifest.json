@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Eriya18/chat-app/static/css/main.a509f534.css",
-    "main.js": "/Eriya18/chat-app/static/js/main.25c3f918.js",
-    "static/js/453.5b0167cd.chunk.js": "/Eriya18/chat-app/static/js/453.5b0167cd.chunk.js",
-    "index.html": "/Eriya18/chat-app/index.html",
-    "main.a509f534.css.map": "/Eriya18/chat-app/static/css/main.a509f534.css.map",
-    "main.25c3f918.js.map": "/Eriya18/chat-app/static/js/main.25c3f918.js.map",
-    "453.5b0167cd.chunk.js.map": "/Eriya18/chat-app/static/js/453.5b0167cd.chunk.js.map"
+    "main.css": "/chat-app/static/css/main.a509f534.css",
+    "main.js": "/chat-app/static/js/main.841ab1dc.js",
+    "static/js/453.5b0167cd.chunk.js": "/chat-app/static/js/453.5b0167cd.chunk.js",
+    "index.html": "/chat-app/index.html",
+    "main.a509f534.css.map": "/chat-app/static/css/main.a509f534.css.map",
+    "main.841ab1dc.js.map": "/chat-app/static/js/main.841ab1dc.js.map",
+    "453.5b0167cd.chunk.js.map": "/chat-app/static/js/453.5b0167cd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a509f534.css",
-    "static/js/main.25c3f918.js"
+    "static/js/main.841ab1dc.js"
   ]
 }
